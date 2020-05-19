@@ -16,7 +16,7 @@
     <Grid>
         <DataGrid IsReadOnly="True" AutoGenerateColumns="False" ItemsSource="{Binding Products}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="No"/>
+                <!--<DataGridTextColumn Header="No" Binding="{Binding AlternationIndex, RelativeSource={RelativeSource AncestorType=DataGridRow}}"/>-->
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}"/>
                 <DataGridTextColumn Header="StorageCount" Binding="{Binding StorageCount}"/>
                 <DataGridTextColumn Header="ComingStorage" Binding="{Binding ComingStorage}"/>
