@@ -1,13 +1,9 @@
-﻿using System;
-using Autofac;
+﻿using Autofac;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TradeProject.Model;
+using TradeProject.Repository.Interface;
 using TradeProject.Setting;
 using TradeProject.ViewModel.PageControl.Interface;
-using TradeProject.Repository.Interface;
 
 namespace TradeProject.ViewModel.PageControl
 {
