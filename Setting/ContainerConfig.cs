@@ -11,8 +11,8 @@ namespace TradeProject.Setting
         public static IContainer Configure()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<StoreProductRepo>().As<IRepo<StoreProduct>>();
-            builder.RegisterType<StorageProductRepo>().As<IRepo<StorageProduct>>();
+            builder.RegisterType<StoreProductRepo>().As<IRepoProducts<StoreProduct>>();
+            builder.RegisterType<StorageProductRepo>().As<IRepoProducts<StorageProduct>>();
             builder.RegisterType<DBContext<StorageProduct>>();
             builder.RegisterType<DBContext<StoreProduct>>();
             return builder.Build();

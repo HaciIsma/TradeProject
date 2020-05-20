@@ -12,7 +12,7 @@ namespace TradeProject.ViewModel.PageControl
         public List<StoreProduct> Products { get; private set; }
         public StoreProductTablePageControl()
         {
-            Products = ContainerConfig.Configure().Resolve<IRepo<StoreProduct>>().GetAll();
+            Products = ContainerConfig.Configure().Resolve<IRepoProducts<StoreProduct>>().GetAll();
         }
     }
 }

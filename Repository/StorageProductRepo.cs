@@ -8,7 +8,7 @@ using TradeProject.Repository.Interface;
 
 namespace TradeProject.Repository
 {
-    public class StorageProductRepo : IRepo<StorageProduct>
+    public class StorageProductRepo : IRepoProducts<StorageProduct>
     {
         private readonly DBContext<StorageProduct> _context;
         public StorageProductRepo(DBContext<StorageProduct> context)

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace TradeProject.Repository.Interface
 {
-    public interface IRepo<T>
+    public interface IRepoProducts<T>
     {
         void Add(T entity);
         void Update(T entity);
