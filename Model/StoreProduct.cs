@@ -8,8 +8,6 @@
         public decimal PurchasePrice { get; set; }
         public int Sell { get; set; }
         public int StoreCount { get; set; }
-        public int ComingStore { get; set; }
-        public int LeaveStore { get; set; }
-        public decimal MonthlyProfit { get; set; }
+        public decimal Profit { get; set; }
     }
 }

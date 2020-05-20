@@ -16,11 +16,18 @@
     <Grid>
         <DataGrid IsReadOnly="True" AutoGenerateColumns="False" ItemsSource="{Binding Products}">
             <DataGrid.Columns>
+
+                <DataGridTemplateColumn Header="Select">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding IsSelected, UpdateSourceTrigger=PropertyChanged}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
                 <!--<DataGridTextColumn Header="No" Binding="{Binding AlternationIndex, RelativeSource={RelativeSource AncestorType=DataGridRow}}"/>-->
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}"/>
                 <DataGridTextColumn Header="StorageCount" Binding="{Binding StorageCount}"/>
-                <DataGridTextColumn Header="ComingStorage" Binding="{Binding ComingStorage}"/>
-                <DataGridTextColumn Header="LeaveStorage" Binding="{Binding LeaveStorage}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

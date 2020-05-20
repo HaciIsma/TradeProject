@@ -22,9 +22,7 @@
                 <DataGridTextColumn Header="PurchasePrice" Binding="{Binding PurchasePrice}"/>
                 <DataGridTextColumn Header="Sell" Binding="{Binding Sell}"/>
                 <DataGridTextColumn Header="StoreCount" Binding="{Binding StoreCount}"/>
-                <DataGridTextColumn Header="ComingStore" Binding="{Binding ComingStore}"/>
-                <DataGridTextColumn Header="LeaveStore" Binding="{Binding LeaveStore}"/>
-                <DataGridTextColumn Header="MonthlyProfit" Binding="{Binding MonthlyProfit}"/>
+                <DataGridTextColumn Header="MonthlyProfit" Binding="{Binding Profit}"/>
             </DataGrid.Columns>
         </DataGrid>
 

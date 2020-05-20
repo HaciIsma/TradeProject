@@ -12,7 +12,15 @@ namespace TradeProject.ViewModel.PageControl
         public List<StorageProduct> Products { get; private set; }
         public StorageProductTablePageControl()
         {
-            Products = ContainerConfig.Configure().Resolve<IRepo<StorageProduct>>().GetAll();
+            //Products = ContainerConfig.Configure().Resolve<IRepo<StorageProduct>>().GetAll();
+            Products = new List<StorageProduct>()
+            {
+                new StorageProduct{ Code="asasasa",StorageCount=55},
+                new StorageProduct{ Code="jsjs",StorageCount=55},
+                new StorageProduct{ Code="jsjs",StorageCount=55},
+                new StorageProduct{ Code="jsjs",StorageCount=55},
+                new StorageProduct{ Code="jsjs",StorageCount=55}
+            };
         }
     }
 }
