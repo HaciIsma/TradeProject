@@ -2,7 +2,7 @@
 
 namespace TradeProject.Repository.Interface
 {
-    public interface IRepoMonthly<T>
+    public interface IRepoDaily<T>
     {
         void Add(T entity);
         List<T> GetAll();

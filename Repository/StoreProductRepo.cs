@@ -24,21 +24,21 @@ namespace TradeProject.Repository
         {
             using (var db = _context)
             {
-                db.Product.Add(entity);
+                db.Entities.Add(entity);
             }
         }
         public List<StoreProduct> GetAll()
         {
             using (var db = _context)
             {
-                return db.Product.ToList();
+                return db.Entities.ToList();
             }
         }
         public void Remove(Expression<Func<StoreProduct, bool>> filter)
         {
             using (var db = _context)
             {
-                db.Product.Remove(db.Product.FirstOrDefault(filter));
+                db.Entities.Remove(db.Entities.FirstOrDefault(filter));
             }
         }
         public void Update(StoreProduct entity)
@@ -46,7 +46,7 @@ namespace TradeProject.Repository
             //* Wtf
             using (var db = _context)
             {
-                db.Product.Update(entity);
+                db.Entities.Update(entity);
             }
         }
     }

@@ -5,7 +5,7 @@ namespace TradeProject.Data
 {
     public class DBContext<T> : DbContext where T : class
     {
-        public DbSet<T> Product { get; set; }
+        public DbSet<T> Entities { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var connectionStringBuilder = new SqliteConnectionStringBuilder { DataSource = $"{typeof(T).Name}.db" };

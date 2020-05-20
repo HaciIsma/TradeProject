@@ -13,6 +13,7 @@ namespace TradeProject.Setting
             var builder = new ContainerBuilder();
             builder.RegisterType<StoreProductRepo>().As<IRepoProducts<StoreProduct>>();
             builder.RegisterType<StorageProductRepo>().As<IRepoProducts<StorageProduct>>();
+            builder.RegisterType<MonthlyProductRepo>().As<IRepoMonthly<Monthly>>();
             builder.RegisterType<DBContext<StorageProduct>>();
             builder.RegisterType<DBContext<StoreProduct>>();
             return builder.Build();

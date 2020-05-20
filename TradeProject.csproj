@@ -172,10 +172,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data\DBContext.cs" />
+    <Compile Include="Model\Daily.cs" />
+    <Compile Include="Model\Monthly.cs" />
     <Compile Include="Model\StorageProduct.cs" />
     <Compile Include="Model\StoreProduct.cs" />
+    <Compile Include="Repository\DailyProductRepo.cs" />
+    <Compile Include="Repository\Interface\IRepoDaily.cs" />
     <Compile Include="Repository\Interface\IRepoMonthly.cs" />
     <Compile Include="Repository\Interface\IRepoProducts.cs" />
+    <Compile Include="Repository\MonthlyProductRepo.cs" />
     <Compile Include="Repository\StorageProductRepo.cs" />
     <Compile Include="Repository\StoreProductRepo.cs" />
     <Compile Include="Setting\ContainerConfig.cs" />
