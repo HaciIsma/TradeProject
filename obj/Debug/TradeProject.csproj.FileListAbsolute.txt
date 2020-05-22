@@ -87,3 +87,11 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\Autofac.xml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StorageProductTablePage.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StoreProductTablePage.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\App.baml
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.g.cs
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.baml
