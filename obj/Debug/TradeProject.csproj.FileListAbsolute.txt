@@ -101,3 +101,6 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Ch
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.baml
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHome.g.cs
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHome.baml
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.csproj.Fody.CopyLocal.cache

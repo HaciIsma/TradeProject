@@ -13,17 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TradeProject.View.Pages
+namespace TradeProject.View.Pages.Store
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for StoreHome.xaml
     /// </summary>
-    public partial class Login : Page
+    public partial class StoreHome : Page
     {
-        public Login()
+        public StoreHome()
         {
             InitializeComponent();
         }
-
     }
 }
