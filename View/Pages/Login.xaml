@@ -13,8 +13,8 @@
     <Page.DataContext>
         <pc:LoginPageControl/>
     </Page.DataContext>
-    
-    <Grid Visibility="{Binding V}">
+
+    <Grid Visibility="{Binding LoginPageVisibility}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15*"/>
             <ColumnDefinition Width="17*"/>

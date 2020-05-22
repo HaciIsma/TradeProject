@@ -95,9 +95,7 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\MaterialDesig
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\App.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.baml
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Choose.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.g.cs
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Choose.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.baml

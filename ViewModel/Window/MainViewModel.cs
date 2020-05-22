@@ -5,32 +5,25 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using TradeProject.View.Pages;
+using TradeProject.ViewModel.PageControl;
 
 namespace TradeProject.ViewModel.Window
 {
+    [AddINotifyPropertyChangedInterface]
     public class MainViewModel
     {
         public string PagePath { get; set; }
-        private List<String> _path;
-        public string A { get; set; }
-
+        public string LoginPagePath { get; set; }
         public MainViewModel()
         {
-            _path = new List<string>
-           {
-               "Pages/Login.xaml"
-
-           };
-
-            A = _path[0];
-            PagePath = "Pages/Choose.xaml";
-
-
-
-           // PagePath = _path[0];
+            LoginPagePath = "Pages/Login.xaml";
+            PagePath = "Pages/Store/StoreHome.xaml";
         }
     }
 }

@@ -17,10 +17,12 @@ namespace TradeProject.ViewModel.PageControl
     {
         public string Username { get; set; }
         public string Password { get; set; }
-        public string V { get; set; } = "Visible";
+        public string LoginPageVisibility { get; set; }
         public ICommand LoginCommand { get; set; }
+        
         public LoginPageControl()
         {
+            LoginPageVisibility = "Visible";
             LoginCommand = new RelayCommand(LoginCommandExecute);
         }
 
@@ -28,7 +30,7 @@ namespace TradeProject.ViewModel.PageControl
         {
             if (Username == ConfigurationManager.AppSettings["Username"] && Password == ConfigurationManager.AppSettings["Password"])
             {
-                V = "Hidden";
+                LoginPageVisibility = "Hidden";
             }
         }
     }

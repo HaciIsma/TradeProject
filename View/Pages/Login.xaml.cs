@@ -24,6 +24,5 @@ namespace TradeProject.View.Pages
         {
             InitializeComponent();
         }
-
     }
 }
