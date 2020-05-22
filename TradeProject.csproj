@@ -195,6 +195,12 @@
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\Choose.xaml.cs">
+      <DependentUpon>Choose.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pages\StorageProductTablePage.xaml.cs">
       <DependentUpon>StorageProductTablePage.xaml</DependentUpon>
     </Compile>
@@ -203,6 +209,9 @@
     </Compile>
     <Compile Include="View\Pages\Store\StoreAdd.xaml.cs">
       <DependentUpon>StoreAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Store\StoreDelete.xaml.cs">
+      <DependentUpon>StoreDelete.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -237,6 +246,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\Choose.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pages\StorageProductTablePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -246,6 +263,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\Store\StoreAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Store\StoreDelete.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
