@@ -75,7 +75,6 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\System.Runtim
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\MainWindow.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.g.cs
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StoreProductTablePage.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreUpdate.g.cs
@@ -87,7 +86,6 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject_
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\App.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\MainWindow.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Login.baml
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StoreProductTablePage.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreUpdate.baml
@@ -102,3 +100,5 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.csprojAssemblyReference.cache
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHistory.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHistory.baml
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreSell.g.cs
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreSell.baml

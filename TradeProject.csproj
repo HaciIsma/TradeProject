@@ -194,16 +194,17 @@
     <Compile Include="Setting\ContainerConfig.cs" />
     <Compile Include="ViewModel\PageControl\Interface\IGetDatabaseProductList.cs" />
     <Compile Include="ViewModel\PageControl\LoginPageControl.cs" />
-    <Compile Include="ViewModel\PageControl\StoreProductTablePageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreAddPageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreDeletePageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreHistoryPageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreSellPageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreUpdatePageControl.cs" />
     <Compile Include="ViewModel\Window\MainViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Pages\StoreProductTablePage.xaml.cs">
-      <DependentUpon>StoreProductTablePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Store\StoreAdd.xaml.cs">
       <DependentUpon>StoreAdd.xaml</DependentUpon>
@@ -213,6 +214,9 @@
     </Compile>
     <Compile Include="View\Pages\Store\StoreHistory.xaml.cs">
       <DependentUpon>StoreHistory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Store\StoreSell.xaml.cs">
+      <DependentUpon>StoreSell.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Store\StoreUpdate.xaml.cs">
       <DependentUpon>StoreUpdate.xaml</DependentUpon>
@@ -254,10 +258,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Pages\StoreProductTablePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\Pages\Store\StoreAdd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -267,6 +267,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\Store\StoreHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Store\StoreSell.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

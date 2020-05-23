@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace TradeProject.ViewModel.PageControl.Interface
+﻿namespace TradeProject.ViewModel.PageControl.Interface
 {
     public interface IGetDatabaseProductList<T>
     {
-        List<T> Products { get; }
+        System.Collections.Generic.List<T> Products { get; }
     }
 }

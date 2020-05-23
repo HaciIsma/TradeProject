@@ -13,13 +13,14 @@ namespace TradeProject.ViewModel.Window
         public ICommand RemoveCommand { get; set; }
         public ICommand HistoryCommand { get; set; }
         public ICommand UpdateCommand { get; set; }
-
+        public ICommand SellCommand { get; set; }
         public MainViewModel()
         {
             AddCommand = new RelayCommand(AddCommandExecute);
             RemoveCommand = new RelayCommand(RemoveCommandExecute);
             HistoryCommand = new RelayCommand(HistoryCommandExecute);
             UpdateCommand = new RelayCommand(UpdateCommandExecute);
+            SellCommand = new RelayCommand(SellCommandExecute);
 
             LoginPagePath = "Pages/Login.xaml";
             PagePath = "Pages/Store/StoreAdd.xaml";
@@ -40,6 +41,10 @@ namespace TradeProject.ViewModel.Window
         private void UpdateCommandExecute(object param)
         {
             PagePath = "Pages/Store/StoreUpdate.xaml";
+        }
+        private void SellCommandExecute(object param)
+        {
+            PagePath = "Pages/Store/StoreSell.xaml";
         }
     }
 }
