@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TradeProject.View.Pages
+namespace TradeProject.View.Pages.Store
 {
     /// <summary>
-    /// Interaction logic for StorageProductTablePage.xaml
+    /// Interaction logic for StoreUpdate.xaml
     /// </summary>
-    public partial class StorageProductTablePage : Page
+    public partial class StoreUpdate : Page
     {
-        public StorageProductTablePage()
+        public StoreUpdate()
         {
             InitializeComponent();
         }

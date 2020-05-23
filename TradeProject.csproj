@@ -185,18 +185,16 @@
     <Compile Include="Command\RelayCommand.cs" />
     <Compile Include="Data\DBContext.cs" />
     <Compile Include="Model\Monthly.cs" />
-    <Compile Include="Model\StorageProduct.cs" />
     <Compile Include="Model\StoreProduct.cs" />
     <Compile Include="Model\Time.cs" />
     <Compile Include="Repository\Interface\IRepoMonthly.cs" />
     <Compile Include="Repository\Interface\IRepoProducts.cs" />
     <Compile Include="Repository\MonthlyProductRepo.cs" />
-    <Compile Include="Repository\StorageProductRepo.cs" />
     <Compile Include="Repository\StoreProductRepo.cs" />
     <Compile Include="Setting\ContainerConfig.cs" />
     <Compile Include="ViewModel\PageControl\Interface\IGetDatabaseProductList.cs" />
     <Compile Include="ViewModel\PageControl\LoginPageControl.cs" />
-    <Compile Include="ViewModel\PageControl\StorageProductTablePageControl.cs" />
+    <Compile Include="ViewModel\PageControl\StoreHomeControl.cs" />
     <Compile Include="ViewModel\PageControl\StoreProductTablePageControl.cs" />
     <Compile Include="ViewModel\Window\MainViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
@@ -204,9 +202,6 @@
     </Compile>
     <Compile Include="View\Pages\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Pages\StorageProductTablePage.xaml.cs">
-      <DependentUpon>StorageProductTablePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\StoreProductTablePage.xaml.cs">
       <DependentUpon>StoreProductTablePage.xaml</DependentUpon>
@@ -219,6 +214,9 @@
     </Compile>
     <Compile Include="View\Pages\Store\StoreHome.xaml.cs">
       <DependentUpon>StoreHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Store\StoreUpdate.xaml.cs">
+      <DependentUpon>StoreUpdate.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -257,10 +255,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Pages\StorageProductTablePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\Pages\StoreProductTablePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -277,10 +271,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\Store\StoreUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\Pages\Storage\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Resource\register.png" />
   </ItemGroup>

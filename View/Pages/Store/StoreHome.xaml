@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TradeProject.View.Pages.Store" 
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:pc="clr-namespace:TradeProject.ViewModel.PageControl"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="StoreHome">
@@ -46,11 +47,10 @@
                 <GradientStop Color="#fffe8704" Offset="0"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 190 0"  Background="#100e17" Grid.ColumnSpan="2" >
-
+        <Border CornerRadius="0 0 190 0"  Background="#100e17" Margin="0,0,0,60" >
         </Border>
         <Grid x:Name="GridBackground" Background="#55313131" Opacity="0"/>
-        <Button x:Name="ButtonOpen" HorizontalAlignment="Left" VerticalAlignment="Top" Background="white" BorderBrush="{x:Null}" Width="30" Height="30" Padding="0" >
+        <Button x:Name="ButtonOpen" HorizontalAlignment="Left" VerticalAlignment="Top" Background="white" BorderBrush="{x:Null}" Width="30" Height="30" Padding="0">
             <materialDesign:PackIcon Kind="Menu" Foreground="#FF313131"/>
         </Button>
         <Grid x:Name="GridMenu" Width="250" HorizontalAlignment="Left" Margin="-250 0 0 0" Background="#031927" RenderTransformOrigin="0.5,0.5">
@@ -68,37 +68,25 @@
                     <ListViewItem Height="50" Padding="0">
                         <StackPanel Orientation="Horizontal" Margin="10 0 " >
                             <materialDesign:PackIcon Kind="AddBox " Width="20" Height="20" Margin="1" VerticalAlignment="Center" Foreground="Blue" />
-                            <Button Content="Add Item" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927" BorderThickness="1" BorderBrush="Blue">
-
-                            </Button>
-
+                            <Button Content="Add Item" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927" BorderThickness="1" BorderBrush="Blue"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="50" Padding="0">
                         <StackPanel Orientation="Horizontal" Margin="10 0 ">
                             <materialDesign:PackIcon Kind="Remove" Width="20" Height="20" Margin="1" VerticalAlignment="Center" Foreground="Red" />
-                            <Button Content="Remove" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927">
-
-                            </Button>
-
+                            <Button Content="Remove" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="50" Padding="0">
                         <StackPanel Orientation="Horizontal" Margin="10 0 ">
                             <materialDesign:PackIcon Kind="Update" Width="20" Height="20" Margin="1" VerticalAlignment="Center" Foreground="Aquamarine" />
-                            <Button Content="Update" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927" BorderBrush="Aqua">
-
-                            </Button>
-
+                            <Button Content="Update" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927" BorderBrush="Aqua"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="50" Padding="0">
                         <StackPanel Orientation="Horizontal" Margin="10 0 ">
                             <materialDesign:PackIcon Kind="History" Width="20" Height="20" Margin="1" VerticalAlignment="Center" Foreground="Gray" />
-                            <Button Content="History" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927 " BorderBrush="gray">
-
-                            </Button>
-
+                            <Button Content="History" Margin="5" materialDesign:ButtonAssist.CornerRadius="20" Background="#031927 " BorderBrush="gray"/>
                         </StackPanel>
                     </ListViewItem>
                 </ListView>
@@ -107,6 +95,7 @@
                 <materialDesign:PackIcon Kind="Close"/>
             </Button>
         </Grid>
+        <Frame Content="Frame" HorizontalAlignment="Left" Height="369" VerticalAlignment="Top" Width="736" Margin="31,32,0,0" Source="{Binding PagePath}"/>
     </Grid>
     
 </Page>
