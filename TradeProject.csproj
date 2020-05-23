@@ -194,7 +194,6 @@
     <Compile Include="Setting\ContainerConfig.cs" />
     <Compile Include="ViewModel\PageControl\Interface\IGetDatabaseProductList.cs" />
     <Compile Include="ViewModel\PageControl\LoginPageControl.cs" />
-    <Compile Include="ViewModel\PageControl\StoreHomeControl.cs" />
     <Compile Include="ViewModel\PageControl\StoreProductTablePageControl.cs" />
     <Compile Include="ViewModel\Window\MainViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
@@ -211,9 +210,6 @@
     </Compile>
     <Compile Include="View\Pages\Store\StoreDelete.xaml.cs">
       <DependentUpon>StoreDelete.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Pages\Store\StoreHome.xaml.cs">
-      <DependentUpon>StoreHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Store\StoreUpdate.xaml.cs">
       <DependentUpon>StoreUpdate.xaml</DependentUpon>
@@ -264,10 +260,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\Store\StoreDelete.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Pages\Store\StoreHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

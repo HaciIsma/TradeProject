@@ -78,7 +78,6 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Lo
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StoreProductTablePage.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.g.cs
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHome.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreUpdate.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\App.g.cs
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject_Content.g.cs
@@ -91,7 +90,6 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Lo
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\StoreProductTablePage.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreAdd.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreDelete.baml
-C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHome.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreUpdate.baml
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.g.resources
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.Properties.Resources.resources

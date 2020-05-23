@@ -8,11 +8,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="StoreProductTablePage">
-
     <Page.DataContext>
         <s:StoreProductTablePageControl/>
     </Page.DataContext>
-
     <Grid>
         <DataGrid IsReadOnly="True" AutoGenerateColumns="False" ItemsSource="{Binding Products}">
             <DataGrid.Columns>
@@ -25,6 +23,5 @@
                 <DataGridTextColumn Header="MonthlyProfit" Binding="{Binding Profit}"/>
             </DataGrid.Columns>
         </DataGrid>
-
     </Grid>
 </Page>
