@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\App.xaml
-6482984056
+7358094963
 31613140745
-24820219970
+25-31334476
 561541207736
-View\MainWindow.xaml;View\Pages\Login.xaml;View\Pages\StoreProductTablePage.xaml;View\Pages\Store\StoreAdd.xaml;View\Pages\Store\StoreDelete.xaml;View\Pages\Store\StoreUpdate.xaml;
+View\MainWindow.xaml;View\Pages\Login.xaml;View\Pages\StoreProductTablePage.xaml;View\Pages\Store\StoreAdd.xaml;View\Pages\Store\StoreDelete.xaml;View\Pages\Store\StoreHistory.xaml;View\Pages\Store\StoreUpdate.xaml;
 
 False
 

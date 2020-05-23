@@ -100,3 +100,5 @@ C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.exe
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.pdb
 C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\TradeProject.csprojAssemblyReference.cache
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHistory.g.cs
+C:\Users\HaciIsma\source\repos\TradeProject\TradeProject\obj\Debug\View\Pages\Store\StoreHistory.baml

@@ -27,17 +27,19 @@ namespace TradeProject.ViewModel.Window
 
         private void AddCommandExecute(object param)
         {
-            //PagePath = "Pages/Store/StoreAdd.xaml";
+            PagePath = "Pages/Store/StoreAdd.xaml";
         }
         private void RemoveCommandExecute(object param)
         {
-            // PagePath = "Pages/Store/StoreDelete.xaml";
+            PagePath = "Pages/Store/StoreDelete.xaml";
         }
         private void HistoryCommandExecute(object param)
         {
+            PagePath = "Pages/Store/StoreHistory.xaml";
         }
         private void UpdateCommandExecute(object param)
         {
+            PagePath = "Pages/Store/StoreUpdate.xaml";
         }
     }
 }

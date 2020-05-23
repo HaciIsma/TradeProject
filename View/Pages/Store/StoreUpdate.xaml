@@ -17,50 +17,51 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <Border Height="390" VerticalAlignment="top" CornerRadius="0 0 190 0" Background="#100e17" >
+        <Border Height="390" VerticalAlignment="top" CornerRadius="0 0 190 0" Background="#100e17" />
 
-        </Border>
-        <StackPanel Orientation="Horizontal">
-            <StackPanel Width="350">
-                <StackPanel Orientation="Horizontal" Margin="10" Height="30">
-                    <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
-                    <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Kodu daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+        <Viewbox>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Width="350">
+                    <StackPanel Orientation="Horizontal" Margin="10" Height="30">
+                        <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
+                        <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Kodu daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10" Height="30">
+                        <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
+                        <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Sifrenizi daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Axtar" ToolTip="Login" Margin="20" />
                 </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="10" Height="30">
-                    <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
-                    <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Sifrenizi daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                <StackPanel Width="350">
+                    <StackPanel Margin="20 40">
+                        <TextBlock  Text="Update" Margin="10" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily="Comic Sans Ms"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
+                        <TextBox x:Name="txt_additem" Margin="10 0" materialDesign:HintAssist.Hint="Kodu daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="Dollar" Width="25" Height="25" Foreground="White"/>
+                        <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Alış qiymətini daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="Dollar" Width="25" Height="25" Foreground="White"/>
+                        <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Satış qiymətini daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10">
+                        <materialDesign:PackIcon Kind="Counter" Width="25" Height="25" Foreground="White"/>
+                        <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Sayını daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
+                    </StackPanel>
+                    <StackPanel Margin="10" HorizontalAlignment="Center">
+                        <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Yadda saxla" ToolTip="Login" />
+                    </StackPanel>
                 </StackPanel>
-                <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Axtar" ToolTip="Login" Margin="20" ></Button>
+                <StackPanel Width="100">
+                    <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btn_Exit">
+                        <materialDesign:PackIcon Kind="Close" Foreground="White" Height="30" Width="30"/>
+                    </Button>
+                </StackPanel>
             </StackPanel>
-            <StackPanel Width="350">
-                <StackPanel Margin="20 40">
-                    <TextBlock  Text="Update" Margin="10" Foreground="White" TextAlignment="Center" FontSize="38" FontFamily="Comic Sans Ms"></TextBlock>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <materialDesign:PackIcon Kind="Cod" Width="25" Height="25" Foreground="White"/>
-                    <TextBox x:Name="txt_additem" Margin="10 0" materialDesign:HintAssist.Hint="Kodu daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <materialDesign:PackIcon Kind="Dollar" Width="25" Height="25" Foreground="White"/>
-                    <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Alış qiymətini daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"></TextBox>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <materialDesign:PackIcon Kind="Dollar" Width="25" Height="25" Foreground="White"/>
-                    <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Satış qiymətini daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"></TextBox>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <materialDesign:PackIcon Kind="Counter" Width="25" Height="25" Foreground="White"/>
-                    <TextBox  Margin="10 0" materialDesign:HintAssist.Hint="Sayını daxil edin" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448"></TextBox>
-                </StackPanel>
-                <StackPanel Margin="10" HorizontalAlignment="Center">
-                    <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Yadda saxla" ToolTip="Login" ></Button>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel Width="100">
-                <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btn_Exit">
-                    <materialDesign:PackIcon Kind="Close" Foreground="White" Height="30" Width="30"/>
-                </Button>
-            </StackPanel>
-        </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>

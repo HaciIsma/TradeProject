@@ -211,6 +211,9 @@
     <Compile Include="View\Pages\Store\StoreDelete.xaml.cs">
       <DependentUpon>StoreDelete.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\Store\StoreHistory.xaml.cs">
+      <DependentUpon>StoreHistory.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pages\Store\StoreUpdate.xaml.cs">
       <DependentUpon>StoreUpdate.xaml</DependentUpon>
     </Compile>
@@ -260,6 +263,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\Store\StoreDelete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Store\StoreHistory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
