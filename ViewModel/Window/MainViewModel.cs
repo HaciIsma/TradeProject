@@ -16,7 +16,6 @@ namespace TradeProject.ViewModel.Window
 
         public MainViewModel()
         {
-            //PagePath = "Pages/Store/StoreHome.xaml";
             AddCommand = new RelayCommand(AddCommandExecute);
             RemoveCommand = new RelayCommand(RemoveCommandExecute);
             HistoryCommand = new RelayCommand(HistoryCommandExecute);

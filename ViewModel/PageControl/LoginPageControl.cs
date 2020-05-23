@@ -1,12 +1,5 @@
 ﻿using PropertyChanged;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Input;
 using TradeProject.Command;
 
@@ -19,7 +12,7 @@ namespace TradeProject.ViewModel.PageControl
         public string Password { get; set; }
         public string LoginPageVisibility { get; set; }
         public ICommand LoginCommand { get; set; }
-        
+
         public LoginPageControl()
         {
             LoginPageVisibility = "Visible";
