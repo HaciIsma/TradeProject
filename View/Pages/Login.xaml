@@ -14,8 +14,8 @@
         <pc:LoginPageControl/>
     </Page.DataContext>
 
-    <Viewbox>
-        <Grid Visibility="{Binding LoginPageVisibility}">
+    <Grid Visibility="{Binding LoginPageVisibility}">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="15*"/>
                 <ColumnDefinition Width="17*"/>
@@ -54,5 +54,5 @@
                 </StackPanel>
             </StackPanel>
         </Grid>
-    </Viewbox>
+    </Grid>
 </Page>
