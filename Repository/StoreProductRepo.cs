@@ -14,17 +14,21 @@ namespace TradeProject.Repository
         public StoreProductRepo(DBContext<StoreProduct> context)
         {
             _context = context;
-
-            using (var db = _context)
-            {
-                db.Database.EnsureCreated();
-            }
+            _context.Database.EnsureCreated();
         }
         public void Add(StoreProduct entity)
         {
             using (var db = _context)
             {
                 db.Entities.Add(entity);
+                db.SaveChanges();
+            }
+        }
+        public StoreProduct Get(Expression<Func<StoreProduct, bool>> filter)
+        {
+            using (var db = _context)
+            {
+                return db.Entities.Where(filter).FirstOrDefault();
             }
         }
         public List<StoreProduct> GetAll()
@@ -47,6 +51,7 @@ namespace TradeProject.Repository
             using (var db = _context)
             {
                 db.Entities.Update(entity);
+                db.SaveChanges();
             }
         }
     }

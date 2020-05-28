@@ -9,6 +9,7 @@ namespace TradeProject.Repository.Interface
         void Add(T entity);
         void Update(T entity);
         void Remove(Expression<Func<T, bool>> filter);
+        T Get(Expression<Func<T, bool>> filter);
         List<T> GetAll();
     }
 }

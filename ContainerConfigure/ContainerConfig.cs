@@ -14,7 +14,7 @@ namespace TradeProject.Setting
             builder.RegisterType<StoreProductRepo>().As<IRepoProducts<StoreProduct>>();
             builder.RegisterType<MonthlyProductRepo>().As<IRepoMonthly<Monthly>>();
             builder.RegisterType<DBContext<StoreProduct>>();
-
+            builder.RegisterType<StoreProduct>();
             return builder.Build();
         }
     }

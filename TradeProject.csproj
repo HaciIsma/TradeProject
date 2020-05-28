@@ -191,7 +191,7 @@
     <Compile Include="Repository\Interface\IRepoProducts.cs" />
     <Compile Include="Repository\MonthlyProductRepo.cs" />
     <Compile Include="Repository\StoreProductRepo.cs" />
-    <Compile Include="Setting\ContainerConfig.cs" />
+    <Compile Include="ContainerConfigure\ContainerConfig.cs" />
     <Compile Include="ViewModel\PageControl\Interface\IGetDatabaseProductList.cs" />
     <Compile Include="ViewModel\PageControl\LoginPageControl.cs" />
     <Compile Include="ViewModel\PageControl\StoreAddPageControl.cs" />

@@ -14,45 +14,47 @@
         <pc:LoginPageControl/>
     </Page.DataContext>
 
-    <Grid Visibility="{Binding LoginPageVisibility}">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="15*"/>
-                <ColumnDefinition Width="17*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.Background>
-                <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
-                    <GradientStop Color="#ffe63070" Offset="1"/>
-                    <GradientStop Color="#fffe8704" Offset="0"/>
-                </LinearGradientBrush>
-            </Grid.Background>
-            <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 190 0"  Background="#100e17" Grid.ColumnSpan="2" />
-            <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
-                <StackPanel Width="350">
-                    <Image Source="/Resource/register.png" Width="300" Height="300" Margin="10"/>
-                </StackPanel>
-                <StackPanel Width="350">
-                    <StackPanel Margin="10 20">
-                        <TextBlock  Text="Login " Margin="20" Foreground="White" TextAlignment="Center" FontSize="25" FontFamily="Comic Sans MS" />
-                        <StackPanel Orientation="Horizontal" Margin="10">
-                            <materialDesign:PackIcon Kind="User" Width="25" Height="25" Foreground="White"/>
-                            <TextBox x:Name="txt_Username" Margin="10 0" materialDesign:HintAssist.Hint="Enter username" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448" Text="{Binding Username}"/>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Margin="10">
-                            <materialDesign:PackIcon Kind="Lock" Width="25" Height="25" Foreground="White"/>
-                            <TextBox  x:Name="txt_Password" Margin="10 0" materialDesign:HintAssist.Hint="Enter Password" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448" Text="{Binding Password}"/>
-                        </StackPanel>
-                        <StackPanel Margin="10" HorizontalAlignment="Center">
-                            <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Login" ToolTip="Login" x:Name="btn_Login" Command="{Binding LoginCommand}"/>
+    <Viewbox>
+        <Grid Visibility="{Binding LoginPageVisibility}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="17*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.9,1">
+                        <GradientStop Color="#ffe63070" Offset="1"/>
+                        <GradientStop Color="#fffe8704" Offset="0"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Border Height="390" VerticalAlignment="Top" CornerRadius="0 0 190 0"  Background="#100e17" Grid.ColumnSpan="2" />
+                <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+                    <StackPanel Width="350">
+                        <Image Source="/Resource/register.png" Width="300" Height="300" Margin="10"/>
+                    </StackPanel>
+                    <StackPanel Width="350">
+                        <StackPanel Margin="10 20">
+                            <TextBlock  Text="Login " Margin="20" Foreground="White" TextAlignment="Center" FontSize="25" FontFamily="Comic Sans MS" />
+                            <StackPanel Orientation="Horizontal" Margin="10">
+                                <materialDesign:PackIcon Kind="User" Width="25" Height="25" Foreground="White"/>
+                                <TextBox x:Name="txt_Username" Margin="10 0" materialDesign:HintAssist.Hint="Enter username" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448" Text="{Binding Username}"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Margin="10">
+                                <materialDesign:PackIcon Kind="Lock" Width="25" Height="25" Foreground="White"/>
+                                <TextBox  x:Name="txt_Password" Margin="10 0" materialDesign:HintAssist.Hint="Enter Password" Foreground="White" Width="250" BorderBrush="White" CaretBrush="#ffd94448" SelectionBrush="#FFD94448" Text="{Binding Password}"/>
+                            </StackPanel>
+                            <StackPanel Margin="10" HorizontalAlignment="Center">
+                                <Button Width="100" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Login" ToolTip="Login" x:Name="btn_Login" Command="{Binding LoginCommand}"/>
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
+                    <StackPanel Width="100">
+                        <Button Visibility="Hidden" Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btn_Exit">
+                            <materialDesign:PackIcon Kind="Close" Foreground="White" Height="30" Width="30"/>
+                        </Button>
+                    </StackPanel>
                 </StackPanel>
-                <StackPanel Width="100">
-                    <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btn_Exit">
-                        <materialDesign:PackIcon Kind="Close" Foreground="White" Height="30" Width="30"/>
-                    </Button>
-                </StackPanel>
-            </StackPanel>
+            </Grid>
         </Grid>
-    </Grid>
+    </Viewbox>
 </Page>

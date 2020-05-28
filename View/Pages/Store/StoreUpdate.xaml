@@ -55,11 +55,6 @@
                         <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Yadda saxla" ToolTip="Login" />
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Width="100">
-                    <Button Margin="10 20" Style="{StaticResource MaterialDesignFloatingActionButton}" Background="{x:Null}" ToolTip="Close" x:Name="btn_Exit">
-                        <materialDesign:PackIcon Kind="Close" Foreground="White" Height="30" Width="30"/>
-                    </Button>
-                </StackPanel>
             </StackPanel>
         </Viewbox>
     </Grid>

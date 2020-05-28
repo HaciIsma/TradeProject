@@ -1,6 +1,11 @@
-﻿using PropertyChanged;
+﻿using Autofac;
+using PropertyChanged;
+using System.Configuration;
 using System.Windows.Input;
 using TradeProject.Command;
+using TradeProject.Model;
+using TradeProject.Repository.Interface;
+using TradeProject.Setting;
 
 namespace TradeProject.ViewModel.Window
 {

@@ -25,7 +25,8 @@
                     </StackPanel>
                     <StackPanel Width="350" >
                         <CheckBox  Content="Hamisini sec" Height="30" Width="150"  FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White"/>
-                        <DataGrid Height="300" Width="300">
+                        <DataGrid Height="300" Margin="10,0,25,0">
+                            
                         </DataGrid>
                         <Button Width="120" Height="40" Style="{StaticResource MaterialDesignRaisedButton}" Margin="10" materialDesign:ButtonAssist.CornerRadius="20" BorderThickness="2" BorderBrush="#D94448" Background="#D94448" Foreground="White" Content="Sil" ToolTip="Sil" />
                     </StackPanel>
