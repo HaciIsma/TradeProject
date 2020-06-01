@@ -183,6 +183,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Command\RelayCommand.cs" />
+    <Compile Include="Converter\Converter.cs" />
     <Compile Include="Data\DBContext.cs" />
     <Compile Include="Model\Monthly.cs" />
     <Compile Include="Model\StoreProduct.cs" />

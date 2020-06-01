@@ -38,13 +38,36 @@ namespace TradeProject.Repository
                 return db.Entities.ToList();
             }
         }
-        public void Remove(Expression<Func<StoreProduct, bool>> filter)
+
+        public void Remove(StoreProduct entity)
+        {
+            using (var db = _context)
+            {
+                db.Entities.Remove(entity);
+                db.SaveChanges();
+            }
+        }
+
+        public void RemoveExp(Expression<Func<StoreProduct, bool>> filter)
         {
             using (var db = _context)
             {
                 db.Entities.Remove(db.Entities.FirstOrDefault(filter));
             }
         }
+
+        public void RemoveList(List<StoreProduct> products)
+        {
+            using (var db = _context)
+            {
+                foreach (var product in products)
+                {
+                    db.Entities.Remove(product);
+                 //   db.SaveChanges();
+                }
+            }
+        }
+
         public void Update(StoreProduct entity)
         {
             //* Wtf
